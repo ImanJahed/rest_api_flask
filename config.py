@@ -25,16 +25,3 @@ class Config:
 
 
 
-print(Config().path)
-
-print(type(Config().SECRET_KEY))
-print((Config().SECRET_KEY))
-print((Config().SQLALCHEMY_DATABASE_URI))
-print(BASE_DIR)
-print(BASE_DIR2)
-# | app/
-# |config.py
-# |env/
-# |   |.env-dev
-# |
-
